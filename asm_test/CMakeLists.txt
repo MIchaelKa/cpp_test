@@ -1,3 +1,7 @@
 enable_language(ASM)
 
-add_executable(asm_test asm_func.S main.cpp)
+#set(ASM_SOURCES
+#    asm_func.asm
+#)
+
+add_executable(asm_test asm_func.asm main.cpp)
