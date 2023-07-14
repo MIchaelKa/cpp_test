@@ -32,6 +32,10 @@ void exchange_seq_cst() {
     x.exchange(42, std::memory_order_seq_cst);
 }
 
+int exchange_ret_seq_cst(int y) {
+    return x.exchange(y, std::memory_order_seq_cst);
+}
+
 int main() {
     std::atomic<int> z;
     int y;

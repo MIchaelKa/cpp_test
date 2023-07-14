@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_subdirectory(asm_test)
 add_subdirectory(base_test)
+add_subdirectory(templates)
